@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(246, 240, 0);
+    background: linear-gradient(90deg, rgba(246, 240, 0, 1) 9%, rgba(2, 0, 36, 1) 45%, rgba(246, 240, 0, 1) 76%, rgba(0, 0, 0, 1) 100%);
+}
+
+div {
+    width: 500px;
+    height: auto;
+    background-color: cornsilk;
+    padding: 14px;
+    margin: 10px;
+}
+
+div .card {
+    color: black;
+    width: 80px;
+    height: auto;
+}
+
+/* Scroll bar changing using webkit */
+/* It is for the bg of the button and size and grading */
+::-webkit-scrollbar {
+    background-color: #FF3CAC;
+    width: 10px;
+}
+/* Thumb is used to  customize the scroll button */
+::-webkit-scrollbar-thumb {
+
+    background-color:white;
+    border-radius: 100px;
+
+}
