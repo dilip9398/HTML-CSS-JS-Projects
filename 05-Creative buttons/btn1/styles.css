@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    background-color: rgb(0,0,0);
+}
+a{
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2rem 5em;
+    background-color: rgb(193, 101, 283);
+    color: white;
+    overflow: hidden;
+    position: relative;
+    font-family: sans-serif;
+    transition: all 0.6s;
+}
+a::before{
+    content: "Download";
+    position: absolute;
+    font-weight: 900;
+    background-color:aliceblue;
+    color: wheat;
+    transform:translateY(-100%);
+    transition: all 0.6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+}
+a:hover::before{
+    transform: translateY(0);
+}
