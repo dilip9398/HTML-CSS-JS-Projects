@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    height: 30rem;
+    width: 30rem;
+    overflow: hidden;
+    position: relative;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.content{
+    height: 25%;
+    width: 100%;
+    position: absolute;
+    color: white;
+    background-color: rgb(37, 69, 39);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: all 0.5s;
+    bottom: 0;
+    left: 0;
+    /* column-gap: 0; */
+}
+
+.box:hover .content{
+    transform: translateY(5%);
+}
+.box:hover img{
+    transform: translateY(-20%);
+}
