@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --main-color:#dead5f;
+    --primary-color:#312e2e;
+}
+button{
+    padding: 10px 30px;
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background: #100e0f;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 23px;
+    align-items: center;
+    
+}
+nav ul {
+    display: flex;
+    gap: 32px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: #fff;
+    padding-bottom: 8px;
+}
+nav h1{
+    font-size: 32px;
+}
+nav h1 span{
+    font-size: 42px;
+    font-weight: bold;
+}
+li a:hover{
+    color: var(--main-color);
+    border-bottom:2px solid  #65270a;
+}
+nav h1:hover i{
+    color: #dead5f;
+    cursor: pointer;
+}
+/* end */
+/* header */
+.headings{
+    background: url(https://www.keepbelieving.com/wp-content/uploads/2024/01/pexels-nao-triponez-129207-scaled.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-family: "roboto",sans-serif;
+    font-weight: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: #fff;
+    position: relative;
+}
+.headings .main-heading{
+    position: absolute;
+    font-size: 4rem;
+    top: 6rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+.headings .primary-heading{
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+}
+.main-btn{
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background: transparent;
+    transform: translateY(30px);
+    background: var(--main-color);
+    font-size: 1rem;
+}
+/* stoy */
+#our-story{
+    height: 100vh;
+    margin-top:15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    width: 500px;
+    height:500px;
+    background: url(https://e1.pxfuel.com/desktop-wallpaper/518/511/desktop-wallpaper-american-coffee-shop-industrial-decor-backgrounds-mural-fresh-coffee-theme-wall-paper-3d-cafe-restaurant-wall-cloth.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.title-style{
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-family: "Roboto", sans-serif;
+    font-size: 4.5rem;
+    color: #fff;
+    transform: translateX(-160px);
+}
+.line{
+    width: 150px;
+    height: 2px;
+    background: #fff;
+    transform: translateX(-180px);
+    padding-left: 12px;
+}
+.section-content{
+    max-width: 500px;
+    color: #fff;
+    line-height: 1.5;
+    margin: 20px 0;
+    text-align:justify;
+    padding-left: 33px;
+    
+}
+.story-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+/* end */
+/* coffe start */
+.coffe-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+.img-2{
+    width: 500px;
+    height: auto;
+}
+.content-section{
+    max-width: 500px;
+}
+.title-two{
+    font-size: 3rem;
+    color: #fff;
+}
+.content-section p{
+    max-width: 500px;
+    color: #fff;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+/* end */
+/* Products section */
+.products{
+    margin-top: 5rem;
+}
+.title-three{
+    font-size:4rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 20rem;
+    text-align: center;
+    
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    border:2px solid var(--main-color);
+    padding: 0 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+}
+.img-one{
+    background: url(https://img.freepik.com/premium-photo/photo-coffee-with-no-background_670382-79894.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-two{
+    background: url(https://img.freepik.com/premium-photo/aesthetic-drink-serving-cappuccino_926887-827.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-three{
+    background: url(https://th.bing.com/th/id/OIP.RNCuVtXAcX1t74IiMVylRAHaEM?w=626&h=354&rs=1&pid=ImgDetMain);
+    background-position: center;
+    background-size: cover;
+}
+.card-title{
+    color: #fff;
+    margin-top: 50px;
+}
+.card .items p{
+    color: #fff;
+    margin: 20px 0;
+}
+/* products end */
+footer{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+    border-top: 1px solid var(--primary-color);
+}
+footer .container{
+    margin: 2px;
+    max-width: 300px;
+    text-align: center;
+}
+footer .heading-info{
+    margin-bottom: 20px;
+}
+footer p{
+    line-height: 25px;
+}
+span{
+    color: var(--main-color);
+}
+.para{
+    text-align: center;
+    border-top: 1px solid var(--primary-color);
+    color: white;
+    margin-bottom: 12px;
+    padding-top: 12px;
+}
+.copy{
+    border-top: 1px solid var(--primary-color);
+}
+/* project end */
+@media only screen and (max-width:768px) {
+    .main-heading,.primary-heading{
+        font-size: 2.5rem;
+    }
+    #our-story{
+        text-align: center;
+    }
+    #our-story .title{
+        transform: translateX(50px);
+    }
+    #our-story .line{
+        display: none;
+    }
+    .content-section{
+        text-align: center;
+    }
+    #our-story .img-containter .imng{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .coffe-container .img-containter{
+        margin-top: 5rem;
+        width: 50%;
+    }
+    .title-two{
+        margin: 0 auto;
+        font-size: 2rem;
+    }
+    .title-three{
+        font-size: 2rem;
+
+    }
+}
